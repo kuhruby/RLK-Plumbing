@@ -13,3 +13,4 @@ gem 'spring',        group: :development
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'

@@ -20,7 +20,7 @@
   $grid-item-height: 14em;
 
   @include media($large-screen) {
-    padding: 0 6em 0 6em;
+    padding: .25em 6em 0 6em;
   }
 
   @include clearfix;
@@ -92,7 +92,7 @@
   }
 
   .grid-item-image {
-    background: url(/images/lake-transparent.png);
+    // background: url(/images/lake-transparent.png);
     background-color: $grid-item-background;
     background-repeat: no-repeat;
     background-position: top;
