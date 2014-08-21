@@ -7,14 +7,14 @@ class Contact < MailForm::Base
   attribute :zip, :validate => true
   attribute :phone, :validate => true
   attribute :email, :validate => /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i
+  attribute :date, :validate => true
   attribute :message, :validate => true
-  attribute :nickname,  :captcha  => true
 
   def headers
     {
       :subject => "Service Request",
       :to => "authenticopy@yahoo.com",
-      :from => %("#{name}" <#{email}>)
+      :from => %("#{first_name} #{last_name}" <#{email}>)
     }
   end
 

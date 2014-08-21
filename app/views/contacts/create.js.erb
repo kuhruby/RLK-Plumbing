@@ -1,0 +1,9 @@
+<% if @contact.errors.any? %>
+
+  $("#form").html("<%= j render partial: 'contacts/form' %>");
+
+<% else %>
+
+  $("#form").html("<h2 class='request_popup'>Thank you for your request. We'll contact you soon!</h2>")
+
+<% end %>

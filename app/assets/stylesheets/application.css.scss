@@ -4,48 +4,39 @@
 @import 'navbar';
 @import 'griditems';
 @import 'staff';
-
-.hidden { display: none; }
-
-/*flash*/
-
-.alert-error {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
-}
-
-.alert-alert {
-background-color: #f2dede;
-border-color: #eed3d7;
-color: #b94a48;
-text-align: left;
-}
-
-.alert-success {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: left;
-}
-
-.alert-notice {
-background-color: #dff0d8;
-border-color: #d6e9c6;
-color: #468847;
-text-align: left;
-}
+@import 'home';
 
 .request {
   width: 50%;
   margin: 0 auto;
 }
 
-.error {
-  color: #c0392b;
-  font-size: 1.5rem;
-  font-weight: bold;
-  float: right;
-  position: relative;
+.request_popup {
+  text-align: center;
+  padding: 2em 0 0 0;
+}
+
+.simple_form label {
+  float: left;
+  margin: .1em 0 0 .5em;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: transparentize(white, 0.5);
+}
+
+a:focus {
+
+}
+
+a:active {
+
 }
