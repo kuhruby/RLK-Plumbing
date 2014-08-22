@@ -18,3 +18,4 @@ gem 'simple_form', '3.1.0.rc2'
 gem 'mail_form'
 gem 'leaflet-rails'
 gem 'geocoder'
+gem 'rails_12factor', group: :production
