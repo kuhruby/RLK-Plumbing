@@ -19,3 +19,5 @@ gem 'mail_form'
 gem 'leaflet-rails'
 gem 'geocoder'
 gem 'rails_12factor', group: :production
+gem 'devise'
+gem 'rails_admin'

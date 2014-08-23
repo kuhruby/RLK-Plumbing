@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  admin_id: 
+  token: MyString
+  amount_in_cents: 1
+  description: MyText
+  email: MyString
+  name: MyString
+  address: MyString
+  stripe_charge_id: MyString
+  paid: false
+
+two:
+  admin_id: 
+  token: MyString
+  amount_in_cents: 1
+  description: MyText
+  email: MyString
+  name: MyString
+  address: MyString
+  stripe_charge_id: MyString
+  paid: false
