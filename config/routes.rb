@@ -6,5 +6,7 @@ Rails.application.routes.draw do
   get '/staff' => 'home#staff', as: :staff
   get '/contacts' => 'contacts#new', as: :contacts
   resources "contacts", only: [:new, :create]
+  post "invoice" => "invoice#create", as: :invoice
+  get "invoice/:token" => "invoice#show", as: :invoice_show
 
 end
