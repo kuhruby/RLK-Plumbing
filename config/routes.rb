@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   resources "contacts", only: [:new, :create]
   post "invoice" => "invoice#create", as: :invoice
   get "invoice/:token" => "invoice#show", as: :invoice_show
+  resources :payments
 
 end
