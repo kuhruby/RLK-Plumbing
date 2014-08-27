@@ -1,5 +1,5 @@
 class InvoiceMailer < ActionMailer::Base
-  default from: "RLK Plumbing"
+  default from: "no-reply@rlkplumbing.com"
 
   def post_email(invoice)
     @invoice = invoice
