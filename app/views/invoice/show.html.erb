@@ -14,5 +14,5 @@
     <td><%= usd @invoice %></td>
     <td><%= @invoice.created_at.strftime("%b %e, %Y %l:%M %p") %></td>
     <td><%= distance_of_time_in_words(Time.now, @invoice.created_at) %> ago</td>
-    <td>'Pay Link'</td>
+    <td><button>Pay</button></td>
 </table>
