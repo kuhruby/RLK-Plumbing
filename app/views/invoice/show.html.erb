@@ -2,6 +2,7 @@
   <tr>
     <th>Name</th>
     <th>Address</th>
+    <th>Description</th>
     <th>Price</th>
     <th colspan="2">Time</th>
     <th></th>
@@ -9,6 +10,7 @@
   <tr>
     <td><%= @invoice.name %></td>
     <td><%= @invoice.address %></td>
+    <td><%= @invoice.description %></td>
     <td><%= usd @invoice %></td>
     <td><%= @invoice.created_at.strftime("%b %e, %Y %l:%M %p") %></td>
     <td><%= distance_of_time_in_words(Time.now, @invoice.created_at) %> ago</td>
